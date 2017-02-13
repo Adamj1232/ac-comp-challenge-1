@@ -2,30 +2,29 @@ body {
   display: flex;
   margin: 0px;
   background-color: #D0D0D0;
-  border: 15px solid #D0D0D0;
+  border: 24px solid #D0D0D0;
   font-family: sans-serif;
-  width:94.5vw;
-  height:95vh;
+  width:96.5vw;
+  height:790px;
   flex: 1;
 }
 
 h2 {
   font-size: 180%;
-  margin: 35px 0px 0px 30px;
+  margin: 45px 0px 0px 30px;
   color: #ffffff;
 }
 
 p {
   margin-left: 30px;
-  margin-bottom: 10px;
   color: #ffffff;
   line-height: 26px;
-  font-size: 100%;
+  font-size: 120%;
 }
 
 section {
-  width:46vw;
-  height: 87vh;
+  width:60%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   height: auto:
@@ -52,9 +51,9 @@ button {
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:12px;
+	font-size:16px;
 	font-weight:bold;
-	padding:8px 25px;
+	padding:8px 30px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
 }
@@ -73,11 +72,11 @@ Button:active {
 }
 
 .resumeb {
-  width: 14px;
+  width: 16px;
 }
 
 .contactb {
-  width: 16px;
+  width: 20px;
 }
 
 .title-box {
@@ -97,13 +96,13 @@ Button:active {
 
 .photo {
   justify-content: flex-end;
-  width: 20vw;
-  height: 100vh;
+  width: 20%;
+  height: 100%;
 }
 
 .resize {
-  height:87vh;
-  width:42.5vw;
+  height:100%;
+  width:107%;
 }
 
 .image {
@@ -146,35 +145,26 @@ Button:active {
   background-color: #97CC4D;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1050px) {
   body {
     height: 100vh;
-    width: 96.5vw;
+    width: 100vw;
   }
 
   section {
-    width:34vw;
-    height: 87vh;
+    width:47%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
   }
 
   button {
-    padding: 9px 22px;
-  }
-
-  h2 {
-    margin-top: 20px;
+    padding: 9px 24px;
   }
 
   p {
     margin-bottom: 5px;
     margin-left: 10px;
-    margin-top: 10px;
-  }
-
-  button {
-    	padding:5px 20px;
   }
 
   .box {
@@ -190,29 +180,25 @@ Button:active {
   }
 
   .image {
-    width: 40px;
+    width: 55px;
   }
 
   .imageSet {
-    width: 20px;
+    width: 35px;
   }
 
   .imageSet2 {
-    width: 30px;
+    width: 45px;
   }
 
-  .resize {
-    height:87vh;
-    width:54vw;
-  }
-
-  .resume {
-    margin-left: 0px;
+  .photo {
+    width: 30vw;
+    height: 100%;
   }
 
 @media screen and (max-width: 900px) {
   section {
-    width: 87vw;
+    width: 100vw;
     flex-direction: row;
     height: auto;
   }
@@ -220,7 +206,6 @@ Button:active {
   body {
     flex-direction: column;
     height: auto;
-    width: 90vw;
   }
 
   figcaption {
@@ -246,13 +231,12 @@ Button:active {
     margin-bottom: 10px;
   }
 
-.resize {
-    height: auto;
-    width: 87vw;
-    }
+  img .resize {
+    height: 100px;
+  }
 
   .box {
-    width: 14.5vw;
+    width: 16.66vw;
     height: 10vh;
   }
 
@@ -333,7 +317,7 @@ Button:active {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 575px) {
   p {
     font-size: 15px;
     margin-bottom: 5px;
@@ -345,7 +329,6 @@ Button:active {
   h2 {
     margin-left: 0px;
     margin-top: 10px;
-    font-size: 24px;
   }
   figcaption {
     margin-top:0px;
@@ -354,7 +337,7 @@ Button:active {
   button {
     padding: 3px 10px;
     margin: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
   button.resume {
     margin-left: 0px;
@@ -364,7 +347,7 @@ Button:active {
     height: auto;
   }
   .box {
-    width: 29vw;
+    width: 33.333vw;
     height: 8vh;
   }
   .title-box {
@@ -373,7 +356,7 @@ Button:active {
   .box8 {
     width: 100vw;
     order:1;
-    height: 0px;
+    height: 5vh;
   }
 
   .image {
