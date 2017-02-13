@@ -24,7 +24,7 @@ p {
 }
 
 section {
-  width:60%;
+  width:63%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -97,13 +97,13 @@ Button:active {
 
 .photo {
   justify-content: flex-end;
-  width: 20vw;
+  width: 540px;
   height: 100vh;
 }
 
 .resize {
   height:95vh;
-  width:42.5vw;
+  width:540px;
 }
 
 .image {
@@ -153,7 +153,7 @@ Button:active {
   }
 
   section {
-    width:34vw;
+    width:63%;
     height: 96vh;
     display: flex;
     flex-wrap: wrap;
@@ -203,7 +203,7 @@ Button:active {
 
   .resize {
     height:96vh;
-    width:65vw;
+
   }
 
   .resume {
